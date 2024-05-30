@@ -63,33 +63,19 @@ body{
 .color1-grid{
     grid-area: color1;
 }
-.color1{
-    background: #F55A5A;
-}
 .color2-grid{
     grid-area: color2;
-}
-.color2{
-    background: #2B283A;
 }
 .color3-grid{
     grid-area: color3;
 }
-.color3{
-    background: #FBF3AB;
-}
 .color4-grid{
     grid-area: color4;
-}
-.color4{
-    background: #AAD1B6;
 }
 .color5-grid{
     grid-area: color5;
 }
-.color5{
-    background: #A626D3;
-}
+
 .color-name{
     background: #FFF;
     border: 1px solid black;
