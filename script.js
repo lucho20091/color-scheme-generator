@@ -3,9 +3,6 @@ const selection = document.querySelector('#selection')
 const getColorBtn = document.querySelector('#get-color-btn')
 const colors = document.querySelector('.colors')
 
-
-
-
 let dataArr = []
 
 getColorBtn.addEventListener('click', () => {
