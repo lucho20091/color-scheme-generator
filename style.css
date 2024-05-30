@@ -1,3 +1,97 @@
 *, *::before, *::after{
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    min-height: 550px;
+    background: #1F2037;
+    border: 1px solid black;
+}
+/* Select-color */
+.select-color{
+    width: 100%;
+    height: 4em;
+    background: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.select-color > input {
+    width: 2.375rem;
+    height: 2.375rem;
+}
+.select-color > select {
+    width: 300px;
+    padding: 0.75em 0.687em;
+}
+.select-color > button {
+    padding: 0.812em 0.687em;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #D1D5DB;
+}
+/* Colors */
+.colors{
+    display: grid;
+    height: 486px;
+    align-items:end;
+    grid-template-columns: repeat(5fr);
+    grid-template-areas: 
+    "color1 color2 color3 color4 color5";
+}
+.color1,
+.color2,
+.color3,
+.color4,
+.color5,
+.color1-grid,
+.color2-grid,
+.color3-grid,
+.color4-grid,
+.color5-grid{
+    width: 100%;
+    height: 100%;
+}
+.color1-grid{
+    grid-area: color1;
+}
+.color1{
+    background: #F55A5A;
+}
+.color2-grid{
+    grid-area: color2;
+}
+.color2{
+    background: #2B283A;
+}
+.color3-grid{
+    grid-area: color3;
+}
+.color3{
+    background: #FBF3AB;
+}
+.color4-grid{
+    grid-area: color4;
+}
+.color4{
+    background: #AAD1B6;
+}
+.color5-grid{
+    grid-area: color5;
+}
+.color5{
+    background: #A626D3;
+}
+.color-name{
+    background: #FFF;
+    border: 1px solid black;
+    text-align: center;
+}
