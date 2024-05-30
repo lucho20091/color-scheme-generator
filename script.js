@@ -1,7 +1,6 @@
 const inputColor = document.querySelector('#input-color')
 const selection = document.querySelector('#selection')
 const getColorBtn = document.querySelector('#get-color-btn')
-const color1 = document.querySelector('.color1')
 const colors = document.querySelector('.colors')
 
 
